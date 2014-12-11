@@ -1,25 +1,35 @@
 ##Coffee Script##
 <hr>
-The golden rule of CoffeeScript is: _"It's just JavaScript"_
-<br>
-You can use any existing JavaScript library seamlessly from CoffeeScript.
+*CoffeeScript is a little language that compiles into JavaScript.* Underneath that awkward Java-esque patina, JavaScript has always had a gorgeous heart. CoffeeScript is an attempt to expose the good parts of JavaScript in a simple way.
 <br>
 CoffeeScript is a compiler. It's meant to be more readable, and then it outputs 
 <br>
-###Coffee Script###
-<div class="mathcontainer">
 
-	square = (x) -> x * x <br>
+###Java Script###
+
+	square = function(x) { <br>
+  		return x * x; <br>
+	};<br>
+
+
+	cube = function(x) {<br>
+  		return square(x) * x;<br>
+	};<br>
+	
+
+###Coffee Script###
+	square = (x) -> x * x<br>
 	cube = (x) -> square(x) * x
 	<hr>
-</div>
 
 
 
-
-Coffee requires the latest version of Node.js and Node Package Manager(npm)
-
-
+One noticable differences is that Coffee Script doesn't require braces and parentheses. 
+<br>
+<br>
+<br>
+<br>
+<br>
 ##Gulp##
 <hr>
 Task runner
