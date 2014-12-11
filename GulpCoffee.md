@@ -26,7 +26,7 @@ CoffeeScript is a compiler. It's meant to be more readable, and then it outputs
 <ul>
 <li>Coffee Script doesn't require braces and parentheses. </li>
 <li>Mandatory indentation </li>
-<li>-></li>
+<li>"->" instead of function()</li>
 <li>White space sensetivity (be careful)</li>
 <li>Poor documentation.</li>
 </ul>
